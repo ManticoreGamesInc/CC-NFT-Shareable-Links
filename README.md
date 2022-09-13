@@ -1,31 +1,36 @@
 <div align="center">
 
-# CC-Template-Repository
+# NFT Image Display
 
-A ... component that does x.
+[![Build Status](https://github.com/ManticoreGamesInc/Bootcamp-NFT-Shareable-Links/workflows/CI/badge.svg)](https://github.com/ManticoreGamesInc/Bootcamp-NFT-Shareable-Links/actions/workflows/ci.yml?query=workflow%3ACI%29)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/ManticoreGamesInc/Bootcamp-NFT-Shareable-Links?style=plastic)
 
-[![Build Status](https://github.com/Core-Team-META/CC-Template-Repository/workflows/CI/badge.svg)](https://github.com/Core-Team-META/CC-Template-Repository/actions/workflows/ci.yml?query=workflow%3ACI%29)
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/Core-Team-META/CC-Template-Repository?style=plastic)
-
-![TitleCard](/Screenshots/REPLACE_ME.png)
+![Preview](/Screenshots/Main.png)
 
 </div>
 
+## Finding the Component
+
+This component can be found under the **CoreAcademy** account on Community Content.
+
 ## Overview
 
-Description
+The NFT Shareable Links component makes copying URLs to NFTs a lot easier by using the Text Entry Box. In the demo that comes with the component, a player can walk up to any of the photo frames and interact with the trigger to open up the UI. The UI contains a text entry box that is auto-filled and selected ready to be copied.
 
-## Setup
+## How to use
 
-Setup
+The component comes with 2 templates. A template that shows a demo of the component in use. Also, a template is included to create your shareable links without all the other objects included.
 
-## Credits
+Two custom properties need to be set for each shareable link.
 
-- List
-- of
-- people
+- **ContractAddress**
+  This is the collection of NFTs you want to pull from.
 
-## How to use this Template
+- **TokenID**
+  If set, then only this NFT image will be displayed from the collection set.
 
-- Replace every mention of `CC-Template-Repository` with your new repository name.
-- Replace every mention of `REPLACE_ME` with the correct values.
+## Learn More
+
+Learn how to create this component yourself:
+
+[https://docs.coregames.com/tutorials/nft_shareable_links/](https://docs.coregames.com/tutorials/nft_shareable_links/)
