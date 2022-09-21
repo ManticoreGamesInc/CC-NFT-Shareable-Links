@@ -24,9 +24,11 @@ The component comes with 2 templates. A template that shows a demo of the compon
 Two custom properties need to be set for each shareable link.
 
 - **ContractAddress**
+
   This is the collection of NFTs you want to pull from.
 
 - **TokenID**
+
   If set, then only this NFT image will be displayed from the collection set.
 
 ## Learn More
