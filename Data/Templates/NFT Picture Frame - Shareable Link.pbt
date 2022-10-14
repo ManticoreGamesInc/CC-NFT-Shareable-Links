@@ -562,5 +562,6 @@ Assets {
     }
   }
   SerializationVersion: 118
+  DirectlyPublished: true
   VirtualFolderPath: "NFT Shareable Links"
 }
