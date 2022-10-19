@@ -14,6 +14,12 @@ ready to be copied.
 
 -----------------------------------------------------------------------------------------------------------------
 
+====
+NOTE
+====
+
+If the Dependent folders are empty in Project Content under Imported Content for this component, save and reload the project to fix it.
+
 ==========
 How to use
 ==========
